@@ -1,0 +1,15 @@
+function welcome() {
+  alert("Jai Hind 🇮🇳 Happy Republic Day");
+}
+
+function readMore() {
+  document.getElementById("more").style.display = "block";
+}
+
+function correct() {
+  alert("Correct Answer! 🇮🇳");
+}
+
+function wrong() {
+  alert("Wrong Answer. Try Again!");
+}

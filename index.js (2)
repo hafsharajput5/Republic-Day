@@ -1,0 +1,14 @@
+function jaiHind() {
+  
+  alert("Jai Hind 🇮🇳 Happy Republic Day");
+
+  const msg = new SpeechSynthesisUtterance(
+    "Jai Hind. Happy Republic Day. Proud to be an Indian."
+  );
+
+  msg.lang = "en-IN";
+  msg.rate = 0.9;
+  msg.pitch = 1;
+
+  window.speechSynthesis.speak(msg);
+}

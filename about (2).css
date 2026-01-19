@@ -1,0 +1,87 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: url("https://i.postimg.cc/tRK3SNZx/IMG-20260118-WA0002.jpg")no-repeat  center center/cover;
+  min-height: 100vh;
+}
+
+nav {
+  background: black;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: orange;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gallery div {
+  background: #ddd;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer {
+
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+    
+    button{
+      padding:10px 20px;
+      margin:10px;
+      font-size:16px;
+      cursor:pointer;
+    }
+#header{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: orangered;
+}
+p{
+  font-size: 50px;
+  margin-left: 30px;
+  font-family:  cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+span{
+  color: orangered;
+}
+a{
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  background: green;
+  padding: 20px 30px;
+  border-radius: 999px;
+  border: 2px solid darkgreen;
+}
